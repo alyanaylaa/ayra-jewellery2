@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Page Title</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+/* Style the body */
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+}
+
+/* Header/logo Title */
+.header {
+  padding: 70px;
+  text-align: center;
+  background: #DFBAF7;
+  color: black;
+}
+
+/*  font size of the heading */
+.header h1 {
+  font-size: 40px;
+}
+
+.navbar {
+  overflow: hidden;
+  background-color: white;
+  position: sticky;
+  position: -webkit-sticky;
+  top: 0;
+  text-align: center;
+}
+
+/* Style the navigation bar links */
+.navbar a {
+  float: left;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 20px;
+  text-decoration: none;
+}
+
+
+/* Right aligned link */
+.navbar a.right {
+  float: right;
+}
+
+/* color on hover */
+.navbar a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* current link */
+.navbar a.active {
+  background-color: #B08BBB;
+  color: white;
+}
+
+/* Column */
+.row {  
+  display: -ms-flexbox; /* IE10 */
+  display: flex;
+  -ms-flex-wrap: wrap; /* IE10 */
+  flex-wrap: wrap;
+}
+
+/* Sidebar/left column */
+.side {
+  -ms-flex: 30%; /* IE10 */
+  flex: 30%;
+  background-color: #C9B6E4;
+  padding: 20px;
+}
+
+/* Main column */
+.main {   
+  -ms-flex: 70%; /* IE10 */
+  flex: 70%;
+  background-color: #F6E5F5;
+  padding: 20px;
+}
+
+/* Footer */
+.footer {
+  padding: 20px;
+  text-align: center;
+  background: #F1F1F6;
+}
+
+@media screen and (max-width: 700px) {
+  .row {   
+    flex-direction: column;
+  }
+}
+
+/* Responsive layout */
+@media screen and (max-width: 400px) {
+  .navbar a {
+    float: none;
+    width: 100%;
+  }
+}
+
+.resized-image {
+  width: 60%; /* Adjust the width as needed */
+  height: auto; /* Maintain aspect ratio */
+}
+.resized-image-main {
+  width: 30%; /* Adjust the width as needed */
+  height: auto; /* Maintain aspect ratio */
+}
+
+.button {
+  display: inline-block;
+  padding: 10px 20px; /* Adjust padding as needed */
+  background-color: #B2A4FF; /* Button background color */
+  color: #fff; /* Button text color */
+  text-decoration: none; /* Remove underline from link */
+  border-radius: 5px; /* Rounded corners */
+  position: relative;
+  left: -250px;
+}
+
+/* Hover effect */
+.button:hover {
+  background-color: #0056b3; /* Darker background color on hover */
+}
+
+.get-in-touch {
+  list-style: none;
+  padding-left: 10px;
+}
+
+.footer2-bacbor {
+  background: #232f3e;
+  padding: 10px 0px;
+  border-top: 1px solid #898989;
+  background-color: #7F669D;
+}
+.footer2-content {
+  font-size: 14px;
+  color: #fff;
+  font-family "Helvetica Neue", Helvetica, Arial, sans-serif;
+  text-align: center;
+  background-color: #7F669D;
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 300px; /* Adjust the width as needed */
+}
+
+</style>
+</head>
+<body>
+
+<div class="header">
+  <font face="Britannic Bold"><h1>Ayra Jewellery</font></h1>
+  <p><font face="High Tower Text">A Store for Buying Some Jewellery</font><p>
+  <br>
+	<marquee direction="right", ><font face="High Tower Text">Step into a realm of elegance and luxury. Welcome to our jewellery haven!</marquee></font></br>
+</div>
+
+<div class="navbar">
+  <a href="#" class="active">Home</a>
+  <a href="contact.html" class="active">Contact</a>
+  <a href="AboutUs.html" class="active">About Us</a>
+</div>
+
+<div class="row">
+  <div class="side">
+    <h2>Diamond Jewellery</h2>
+	<p>Explore our stunning jewelry collection and discover pieces that will become part of your life story. At Aura Jewelry, each piece is not just an accessory, but a reflection of your beauty and elegance.</p>
+    <h5>COLLECTION</h5>
+	<body>
+		<img class="resized-image" src="image/ring.png" alt="Image1">
+		<img class="resized-image" src="image/ring5.jpg" alt="Image2">
+		<img class="resized-image" src="image/ring6.jpg" alt="Image3">
+		
+	</body>
+  </div>
+  <div class="main">
+    <h1><b>Our Best Seller</b></h1>
+
+	<body>
+		<h3>Diamond Ring</h3>
+		<p>Rp. 8.599.000</p>
+		<a href="https://media.istockphoto.com/id/1219309412/photo/diamond-ring-isolated-on-white-engagement-solitaire-style-ring.jpg?s=612x612&w=0&k=20&c=X5UDpRbiX9vFsZAWh8vt1H5YmrjhPRK2F4bXcWKl5Tw=">
+			<img class="resized-image-main" src="image/ring4.jpg" alt="Clickable Image">
+		</a> 
+		<a href="form.html" class="button">Buy</a>
+	</body>
+	
+	<br><br><br>
+	
+	<h3>Diamond Bracelet</h3>
+	<p>Rp. 15.877.000</p>
+	<body>
+		<a href="https://www.graff.com/dw/image/v2/BFNT_PRD/on/demandware.static/-/Sites-master-catalog/default/dwb470b2a3/sfcc-graff-staging/i/m/a/g/e/images_hi_res_RGB019_RGB019_GB7232_Hero_1.jpg?sw=3000&sh=3000">
+			<img class="resized-image-main" src="image/bracelet4.jpg" alt="Clickable Image">
+		</a> 
+		<a href="form.html" class="button" >Buy</a>
+	</body>
+  </div>
+</div>
+
+<div class="footer">
+  
+  <font face="Times New Roman"><h2>GET IN TOUCH</h2>
+  <ul class="get-in-touch">
+	<li><i aria-hidden="true"></i> E-MAIL:<a href="#" class="footer-e-mail"> alya10523203@gmail.com</a></li>
+	<li><i aria-hidden="true"></i> WHATS-APP: 081345700212</li>
+	<li><i aria-hidden="true"></i> Class: IS-5</li>
+  </ul>
+
+<div class="width-100 footer2-bacbor">
+  <p class="footer2-content">Copyright Â© 2024, Alya Nayla A. P.</p>
+</div>
+
+</body>
+</html>
